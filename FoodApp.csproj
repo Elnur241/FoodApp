@@ -1,0 +1,105 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\tema\.git\config" />
+    <None Include="wwwroot\tema\.git\description" />
+    <None Include="wwwroot\tema\.git\FETCH_HEAD" />
+    <None Include="wwwroot\tema\.git\HEAD" />
+    <None Include="wwwroot\tema\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\tema\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\tema\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\tema\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\tema\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\tema\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\tema\.git\hooks\push-to-checkout.sample" />
+    <None Include="wwwroot\tema\.git\hooks\update.sample" />
+    <None Include="wwwroot\tema\.git\index" />
+    <None Include="wwwroot\tema\.git\info\exclude" />
+    <None Include="wwwroot\tema\.git\logs\HEAD" />
+    <None Include="wwwroot\tema\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\tema\.git\objects\09\112745cecbb9c658fec7d43c7b28f0646005e4" />
+    <None Include="wwwroot\tema\.git\objects\0c\8f69b1036dd8222db02e8efb33e29329594529" />
+    <None Include="wwwroot\tema\.git\objects\10\c71c4ebcd154e5423babf215456c517e5e2022" />
+    <None Include="wwwroot\tema\.git\objects\12\fff700a08de482d807d5da7ddc5f45696e5c5d" />
+    <None Include="wwwroot\tema\.git\objects\24\4e6ad7ab73dc879fb65eb428dae46361baa17b" />
+    <None Include="wwwroot\tema\.git\objects\29\b3a2c7b4961a3c50c3255163814df8a188b3e5" />
+    <None Include="wwwroot\tema\.git\objects\2f\3c49762b44ce47d1c8396b8ed909e5f71495ba" />
+    <None Include="wwwroot\tema\.git\objects\36\da78d3d937af5dd5c4406df7faa3ed7cc85497" />
+    <None Include="wwwroot\tema\.git\objects\37\b6d4538d87b460645998fc1fc14763d3951038" />
+    <None Include="wwwroot\tema\.git\objects\3e\ad602845b76c53ac410fe60452155b41cf5f5d" />
+    <None Include="wwwroot\tema\.git\objects\4c\b783bd930a6181c823652466c576f56f628e3f" />
+    <None Include="wwwroot\tema\.git\objects\50\62f8c80351e2cda01f85506bc4e4a2ec6f681b" />
+    <None Include="wwwroot\tema\.git\objects\51\e87b2746938c878648c13f51c8f50d796c9ec6" />
+    <None Include="wwwroot\tema\.git\objects\60\7c9be052b5b0a416e7707e1f4eeec02c358d85" />
+    <None Include="wwwroot\tema\.git\objects\6a\8709423ca24ea68e66ee358b9435c9953559a2" />
+    <None Include="wwwroot\tema\.git\objects\6f\9509c88bed7080d496fc5e1d87a9315e30549d" />
+    <None Include="wwwroot\tema\.git\objects\6f\bf02ad3abb526700d78e6e936af80901a14aed" />
+    <None Include="wwwroot\tema\.git\objects\6f\c6a267685139c0943eac05f60c0d269a2a0742" />
+    <None Include="wwwroot\tema\.git\objects\72\e70a575e3b060e5e3395b082bbc165fd89609f" />
+    <None Include="wwwroot\tema\.git\objects\73\87b7f455d077c5183f14ab46ff73ecd7e2db0b" />
+    <None Include="wwwroot\tema\.git\objects\78\4d79df7a69129b890935d6a0322dbe7f0f3e76" />
+    <None Include="wwwroot\tema\.git\objects\7f\f4574d8545d0841c5986aa687f54b086ab09fa" />
+    <None Include="wwwroot\tema\.git\objects\85\6031d5c1dd75c88654a2ccbd70eff5238caad0" />
+    <None Include="wwwroot\tema\.git\objects\86\630823b8b93e1b674fbb7bf6d543ca5ac27315" />
+    <None Include="wwwroot\tema\.git\objects\8b\89e5048167e3168cd287a1b616935f32b2b223" />
+    <None Include="wwwroot\tema\.git\objects\8d\b3747f1e503a98a9ce14cc3aa69f21d6b0ac35" />
+    <None Include="wwwroot\tema\.git\objects\96\03d2589627510f802655dad7460ad636a3766d" />
+    <None Include="wwwroot\tema\.git\objects\99\f194f9583d74e69c04a1e6647fabc6f79b8514" />
+    <None Include="wwwroot\tema\.git\objects\9b\ad16f43acea029fad8603049525dc862a77e20" />
+    <None Include="wwwroot\tema\.git\objects\9c\adbc424670b7dea6723fd3b97af0186be5810c" />
+    <None Include="wwwroot\tema\.git\objects\9d\018ab761c3fb18896c8198ec804256ad2430dd" />
+    <None Include="wwwroot\tema\.git\objects\9e\0dd343e9ec9718e8adda9bf9d5d6e6801b2bd5" />
+    <None Include="wwwroot\tema\.git\objects\af\2a383413d6bdf3e6211bc2709a1508fb45bf80" />
+    <None Include="wwwroot\tema\.git\objects\b3\038bd8aa04ea6e136fbbc6e9e459c0daad5758" />
+    <None Include="wwwroot\tema\.git\objects\c3\0ca0c53ed4bb7d9136a136e990867039f171e6" />
+    <None Include="wwwroot\tema\.git\objects\c3\4d94fb1b635af0baeea34086d7dda35921ad4a" />
+    <None Include="wwwroot\tema\.git\objects\ce\b5dec639e0c0fb6609e1090b69a7e35dc60f33" />
+    <None Include="wwwroot\tema\.git\objects\d2\2f881bcc701a391be989bf351831d7ecf7aba1" />
+    <None Include="wwwroot\tema\.git\objects\d3\85a338eede2d5be97cfe512df404cc167534e7" />
+    <None Include="wwwroot\tema\.git\objects\d5\395ffd650c063ec5bf7da5871b202a14ab997c" />
+    <None Include="wwwroot\tema\.git\objects\d9\843a7119d695494e2b3b7ce6d480883b822679" />
+    <None Include="wwwroot\tema\.git\objects\db\70d85d1a0595885d54c9e79d1e9d57d28035b6" />
+    <None Include="wwwroot\tema\.git\objects\dc\65a935f6141a5f755b5640ef08a70b90c83288" />
+    <None Include="wwwroot\tema\.git\objects\dc\926ee4b46c2536b6ace1d6d7c3f45344639523" />
+    <None Include="wwwroot\tema\.git\objects\de\34700e37ab9276c6a6beab81df6e11d7f7e170" />
+    <None Include="wwwroot\tema\.git\objects\df\e0770424b2a19faf507a501ebfc23be8f54e7b" />
+    <None Include="wwwroot\tema\.git\objects\e2\755c65100bbd56b464c5775fd948f30fbedc1d" />
+    <None Include="wwwroot\tema\.git\objects\ed\23526a6d93a11c690786f686b5b43425460c6c" />
+    <None Include="wwwroot\tema\.git\objects\f9\0a74f801a43dd64a3f772d41e00177c95113ff" />
+    <None Include="wwwroot\tema\.git\objects\ff\be16f3711316a2f43305a7f65c2773ed1e48fb" />
+    <None Include="wwwroot\tema\.git\refs\heads\master" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\tema\.git\objects\info\" />
+    <Folder Include="wwwroot\tema\.git\objects\pack\" />
+    <Folder Include="wwwroot\tema\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>

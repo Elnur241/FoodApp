@@ -1,0 +1,30 @@
+﻿@model List<FoodApp.Data.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Category Name</th>
+        <th>Status</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    <tr>
+   @foreach (var item in Model)
+   {
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.Name</td>
+        <td>@item.Status</td>
+        <td><a href="/Category/deleteCategory/@item.Id" class="btn btn-danger">Delete</a></td>
+        <td><a href="/Category/getCategory/@item.Id" class="btn btn-success">Update</a></td>
+    </tr>
+      
+   }
+    </tr>
+</table>
+<a href="/Category/AddCategory" class="btn btn-primary">New Category </a>

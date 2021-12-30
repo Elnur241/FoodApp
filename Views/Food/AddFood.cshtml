@@ -1,0 +1,31 @@
+﻿@model FoodApp.Data.Models.Food
+@{
+    ViewData["Title"] = "AddFood";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddFood</h1>
+
+@using (@Html.BeginForm("AddFood", "Food", FormMethod.Post))
+{
+    @Html.LabelFor(c => c.name)
+    @Html.TextBoxFor(c => c.name, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Price)
+    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(c => c.Stock)
+    @Html.TextBoxFor(c => c.Stock, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.IamgeUrl)
+    @Html.TextBoxFor(x => x.IamgeUrl, new { @class = "form-control" }) 
+    <br />
+    @Html.LabelFor(x => x.category)
+    @Html.DropDownListFor(x => x.CategoryId,(List<SelectListItem>)ViewBag.foodbag, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Description)
+    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary mt-5">Save</button>
+
+}
